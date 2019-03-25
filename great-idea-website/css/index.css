@@ -75,10 +75,18 @@ h1, h2, h3, h4, h5 {
 	padding: 10px 50px;
 }
 
+.topnav a {
+	margin: 30px;
+}
+
 header {
 	display: inline-block;
     text-align: left;
     padding: 15px;
+}
+
+.logo {
+	margin-left: 30px;
 }
 
 .h1andgetstarted {
@@ -112,14 +120,18 @@ h1 {
 .navigation {
 	display: inline-block;
 	margin: 0 0 10px 10px;
+	color: gray;
+	text-decoration: none;
 }
 
 .top-content {
 	column-count: 2;
+	border-top: 1px black solid;
 }
 
 .bottom-content {
 	column-count: 3;
+	border-bottom: 1px black solid;
 }
 
 footer {
